@@ -1,2 +1,1 @@
-# event-schedule-marketing
-Marketing page
+Event schedule marketing site.
