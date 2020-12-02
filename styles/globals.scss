@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;500;700;800;900&display=fallback");
+
+// Additional styles
+@import "additional-styles/utility-patterns.scss";
+@import "additional-styles/theme.scss";
+
+@tailwind utilities;
+
+// Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
+@responsive {
+	.rtl {
+		direction: rtl;
+	}
+}
+
+[x-cloak] {
+	display: none;
+}
+
+$aos-distance: 10px;
+@import "node_modules/aos/src/sass/aos.scss";

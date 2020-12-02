@@ -1,5 +1,5 @@
 {
-  "name": "shcedule",
+  "name": "schedule",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,11 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "autoprefixer": "^10.0.2",
     "next": "10.0.3",
+    "node-sass": "^5.0.0",
     "postcss": "^8.1.10",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-transition-group": "^4.4.1",
     "tailwindcss": "^2.0.1"
   }
 }
