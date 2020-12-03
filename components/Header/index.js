@@ -21,8 +21,8 @@ function index() {
           <svg xmlns="http://www.w3.org/2000/svg" className="w-36 h-10 md:w-64 md:h-12" viewBox="0 0 936.78 178.9">
             <defs>
               <linearGradient id="a" x1="-2.36" y1="125.04" x2="140.2" y2="65.15" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#3730a3"/>
-                <stop offset="1" stop-color="#c24899"/>
+                <stop offset="0" stopColor="#3730a3"/>
+                <stop offset="1" stopColor="#c24899"/>
               </linearGradient>
             </defs>
             <g data-name="Layer 2">
