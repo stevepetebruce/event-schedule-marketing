@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useCycle } from "framer-motion";
+
+import HeadingAnimation from './HeadingAnimation'
+
+const SLIDE_CHANGE_TIME_MS = 5000;
 
 function Hero() {
+
+  const [currentScene, setCurrentScene] = useCycle(
+    {text: "Festivals"},
+    {text: "Conferences"},
+    {text: "Events"}
+  );
+
+  useEffect(() => {
+    const timeOut = setTimeout(setCurrentScene, SLIDE_CHANGE_TIME_MS);
+    return () => clearTimeout(timeOut);
+  }, [currentScene, setCurrentScene]);
 
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-16">
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-gray-100" data-aos="zoom-y-out">Simple schedules for <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-800">festivals</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-gray-100" data-aos="zoom-y-out">Simple schedules for <HeadingAnimation text={currentScene.text} /></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-400 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Schedule tools for event organisers and attendees</p>
             </div>
