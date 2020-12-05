@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useCycle } from "framer-motion";
 
 import HeadingAnimation from './HeadingAnimation'
+import ScheduleAnimation from './ScheduleAnimation';
 
 const SLIDE_CHANGE_TIME_MS = 5000;
 
@@ -39,7 +40,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-50">animation</div>
+      <ScheduleAnimation />
     </section>
   );
 }
