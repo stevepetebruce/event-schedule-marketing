@@ -11,7 +11,7 @@ function index() {
           </div>
           <div className="max-w-sm mx-auto grid gap-14 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none" data-aos="zoom-y-out" data-aos-delay="150">
             <a className="relative flex flex-col items-center p-5 bg-gray-700 rounded-xl shadow-xl transition duration-200 ease-in-out transform hover:scale-105 hover:bg-gray-600"
-            href="http://www.google.com"
+            href="https://www.app.scheduled.live/timetable/5fc644e33869900017b2fb5b"
             target="_blank"
             >
               <img className="rounded-xl transform animate-float mb-3" src='/svg/schedule-screen3.svg'  alt="schedule" />
@@ -19,7 +19,7 @@ function index() {
               <p className="text-gray-300 text-center mx-8">Schedules to link to or add to your website.</p>
             </a>
             <a className="relative flex flex-col items-center p-5 bg-gray-700 rounded-xl shadow-xl transition duration-200 ease-in-out transform hover:scale-105 hover:bg-gray-600"
-            href="http://www.google.com"
+            href="https://www.app.scheduled.live/display/5fc644e33869900017b2fb5b/1?stage=Main%20Stage"
             target="_blank">
               <img className="rounded-xl transform animate-float mb-3" src='/svg/monitor-screen.svg' alt="schedule" />
               <h4 className="text-xl font-bold leading-snug tracking-tight text-white mb-1">Monitor display</h4>
