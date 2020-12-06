@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 function ScheduleAnimation() {
   return (
-    <div style={{height:200}}>
+    <div style={{height:300}}>
       <motion.div className="overflow-x-auto bg-gray-800"
       initial= {{
           height: 0
           }}
         animate= {{
-          height: 194
+          height: 258
         }}
         transition={{
           delay: 1,
@@ -31,19 +31,25 @@ function ScheduleAnimation() {
         }}> 
         
           <div className="relative h-16 border-b border-indigo-700" style={{width:2800}}>
-            <div className="h-16 w-32 bg-gray-200 absolute" style={{marginLeft:800}}>block</div>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:200}}>block</div>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:2200}}>block</div>
+            <div className="h-16 absolute" style={{marginLeft:1400}}><img src='/svg/tab1.svg' alt="schedule tab" width="222" style={{marginTop:1}} /></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:250}}><img src='/svg/tab3.svg' alt="schedule tab" width="254" style={{marginTop:1}}/></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:2200}}><img src='/svg/tab2.svg' alt="schedule tab" width="288" style={{marginTop:1}} /></div>
           </div>
           <div className="relative h-16 border-b border-indigo-700" style={{width:2800}}>
-            <div className="h-16 w-32 bg-gray-200 ml-96 absolute" style={{marginLeft:1100}}>block</div>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:600}}>block</div>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:1500}}>block</div>
+            <div className="h-16 ml-96 absolute" style={{marginLeft:1100}}><img src='/svg/tab4.svg' alt="schedule tab" width="304" style={{marginTop:1}} /></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:600}}><img src='/svg/tab2.svg' alt="schedule tab" width="288" style={{marginTop:1}} /></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:1500}}><img src='/svg/tab1.svg' alt="schedule tab" width="222" style={{marginTop:1}} /></div>
           </div>
           <div className="relative h-16 border-b border-indigo-700" style={{width:2800}}>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:1000}}>fgdfgd</div>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:1800}}>fgdfgd</div>
-            <div className="h-16 w-32 bg-gray-200 ml-64 absolute" style={{marginLeft:400}}>fgdfgd</div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:1000}}><img src='/svg/tab3.svg' alt="schedule tab" width="254" style={{marginTop:1}} /></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:1800}}><img src='/svg/tab4.svg' alt="schedule tab" width="304" style={{marginTop:1}} /></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:400}}><img src='/svg/tab4.svg' alt="schedule tab" width="304" style={{marginTop:1}} /></div>
+          </div>
+          <div className="relative h-16 border-b border-indigo-700" style={{width:2800}}>
+            <div className="h-16 absolute" style={{marginLeft:800}}><img src='/svg/tab1.svg' alt="schedule tab" width="222" style={{marginTop:1}} /></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:150}}><img src='/svg/tab3.svg' alt="schedule tab" width="254" style={{marginTop:1}}/></div>
+            <div className="h-16 ml-64 absolute" style={{marginLeft:2300}}><img src='/svg/tab2.svg' alt="schedule tab" width="288" style={{marginTop:1}} /></div>
+            <div className="h-16 absolute" style={{marginLeft:1700}}><img src='/svg/tab1.svg' alt="schedule tab" width="222" style={{marginTop:1}} /></div>
           </div>
         </motion.div>
       </motion.div>
