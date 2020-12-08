@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Header from '../components/Header';
+import Footer from '../components/Footer'
 import Button from '../components/Shared/Button'
 
 function contact() {
@@ -11,11 +12,11 @@ function contact() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="max-w-3xl mx-auto text-center pb-6 md:pb-20">
-              <h2 className="h2 mb-3 text-gray-100">Do you have a question? </h2>
+              <h2 className="h2 mb-3 text-gray-100">Do you have a question?</h2>
               <h2 className="h2 text-gray-100">We're here to help.</h2>
             </div>
             <div className="max-w-md mx-auto">
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact" method="POST" action="/success" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="flex flex-wrap -mx-3 mb-4">
                   <div className="w-full px-3">
@@ -37,7 +38,9 @@ function contact() {
                 </div>
                 <div className="flex flex-wrap -mx-3 mt-6">
                   <div className="flex w-full px-3 justify-center ml-4">
-                    <Button default>Submit</Button>
+                    <Button default style="px-6 py-3 transform transition duration-200 ease-in-out hover:scale-105">
+                      Submit
+                    </Button>
                   </div>
                 </div>
               </form>
@@ -48,7 +51,7 @@ function contact() {
               </div>
               <div className="flex w-full px-3 justify-center ml-2">
                 <Link href="/">
-                  <Button inverse>
+                  <Button inverse style="px-6 py-3 transform transition duration-200 ease-in-out hover:scale-105">
                     Return to homepage
                   </Button>
                 </Link>
@@ -58,6 +61,7 @@ function contact() {
         </div>
       </section>
     </main>
+    <Footer className="fixed bottom-0" />
   </div>
   )
 }
