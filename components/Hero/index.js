@@ -26,7 +26,7 @@ function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-gray-100" data-aos="zoom-y-out">Effortless schedules for <HeadingAnimation text={currentScene.text} /></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-400 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Designed for event organisers and attendees</p>
+              <h2 className="text-xl text-gray-400 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Designed for event organisers and attendees</h2>
             </div>
           </div>
           <div className="relative flex justify-center mb-4" data-aos="zoom-y-out" data-aos-delay="450">
