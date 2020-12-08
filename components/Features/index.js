@@ -28,7 +28,7 @@ function Features() {
           <div className="md:grid md:grid-cols-12 md:gap-6">
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3 text-gray-50">3 displays in 1 product</h3>
+                <h4 className="h4 mb-3 text-gray-50">3 displays in 1 product</h4>
               </div>
               <div className="mb-8 md:mb-0">
                 <a
@@ -72,7 +72,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1 text-white">Artist / speaker list <span class="inline-block align-middle rounded-full ml-3 mb-1 py-1 px-3 text-xs text-white bg-pink-600">Coming Soon</span></div>
-                    <div className="text-gray-300">Display all the artists attending the event and view each ones details, times and links.</div>
+                    <div className="text-gray-300">Display all the artists attending the event and view each one's details, times and links.</div>
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 ${tab !== 2 ? 'bg-gray-200' : 'bg-indigo-100'} rounded-full shadow flex-shrink-0 ml-3`}>
                     <svg width="20" height="20" viewBox="0 0 32 34" xmlns="http://www.w3.org/2000/svg">

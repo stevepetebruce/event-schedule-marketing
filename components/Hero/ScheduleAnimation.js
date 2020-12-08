@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function ScheduleAnimation() {
   return (
     <div style={{height:300}}>
-      <motion.div className="overflow-x-auto bg-gray-800"
+      <motion.div className="overflow-hidden bg-gray-800"
       initial= {{
           height: 0
           }}
