@@ -42,7 +42,7 @@ function Features() {
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 ${tab !== 2 ? 'bg-gray-200' : 'bg-indigo-100'} rounded-full shadow flex-shrink-0 ml-3`}>
                     <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g fill="none" fill-rule="evenodd">
+                      <g fill="none" fillRule="evenodd">
                         <path d="M-2-2h24v24H-2z"/>
                         <path d="M9.99 0C4.47 0 0 4.48 0 10s4.47 10 9.99 10C15.52 20 20 15.52 20 10S15.52 0 9.99 0zM10 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zM9.78 5h-.06c-.4 0-.72.32-.72.72v4.72c0 .35.18.68.49.86l4.15 2.49c.34.2.78.1.98-.24a.71.71 0 00-.25-.99l-3.87-2.3V5.72c0-.4-.32-.72-.72-.72z" fill="#1D1D1D"/>
                       </g>
@@ -59,7 +59,7 @@ function Features() {
                     <div className="text-gray-300">Display who is live and who is appearing next on monitors at the venue.</div>
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 ${tab !== 2 ? 'bg-gray-200' : 'bg-indigo-100'} rounded-full shadow flex-shrink-0 ml-3`}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 24 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 24 22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-monitor">
                       <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
                       <path d="M8 21h8M12 17v4"/>
                     </svg>
@@ -71,7 +71,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1 text-white">Artist / speaker list <span class="inline-block align-middle rounded-full ml-3 mb-1 py-1 px-3 text-xs text-white bg-pink-600">Coming Soon</span></div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-white">Artist / speaker list <span className="inline-block align-middle rounded-full ml-3 mb-1 py-1 px-3 text-xs text-white bg-pink-600">Coming Soon</span></div>
                     <div className="text-gray-300">Display all the artists attending the event and view each one's details, times and links.</div>
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 ${tab !== 2 ? 'bg-gray-200' : 'bg-indigo-100'} rounded-full shadow flex-shrink-0 ml-3`}>

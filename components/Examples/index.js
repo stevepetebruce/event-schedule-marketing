@@ -28,7 +28,7 @@ function index() {
             <div className="relative flex flex-col items-center p-5 bg-gray-700 rounded-xl shadow-xl">
               <img className="rounded-xl transform animate-float mb-3" src='/svg/artist-screen2.svg' alt="schedule" />
               <h4 className="text-xl font-bold leading-snug tracking-tight text-white mb-1">Artist / speaker list</h4>
-              <p className="text-gray-300 text-center mx-8"><span class="inline-block align-middle rounded-full mb-1 py-1 px-3 text-xs text-white bg-pink-600">Coming Soon</span> <br/>Artist biographies in one place.</p>
+              <p className="text-gray-300 text-center mx-8"><span className="inline-block align-middle rounded-full mb-1 py-1 px-3 text-xs text-white bg-pink-600">Coming Soon</span> <br/>Artist biographies in one place.</p>
             </div>
           </div>
         </div>

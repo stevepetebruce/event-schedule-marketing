@@ -36,14 +36,13 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" sizes="96x96" href="/favicons/favicon.ico" />
         <meta content="/favicons/browserconfig.xml" name="msapplication-config" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
 
         <meta name="twitter:card" content="summary" />
         <meta property="og:url" content="https://www.scheduled.live" />
         <meta property="og:title" content="Scheduled.live" />
         <meta property="og:description" content="Effortless schedules for festivals, conferences and events." />
         <meta property="og:image" content="https://www.scheduled.live/images/scheduled-screen.jpg" />
-
       </Head>
       <div className="flex flex-col min-h-screen overflow-hidden bg-gray-900">
         <Header />
