@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 import Button from '../Shared/Button';
 
@@ -44,14 +45,18 @@ function index() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <Button link="https://www.app.scheduled.live/auth" inverse>
-                  Log in
-                </Button>
+                <Link href="https://www.app.scheduled.live/auth">
+                  <Button inverse>
+                    Log in
+                  </Button>
+                </Link>
               </li>
               <li>
-                <Button link="https://www.app.scheduled.live/auth" default>
-                  Sign up
-                </Button>
+                <Link href="https://www.app.scheduled.live/auth?access=signup">
+                  <Button default>
+                    Sign up
+                  </Button>
+                </Link>
               </li>
             </ul>
           </nav>
